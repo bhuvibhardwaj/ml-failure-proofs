@@ -1,2 +1,9 @@
 # ml-failure-proofs
-Small, controlled experiments showing how ML models can pass standard validation while already failing under realistic data shifts. Focuses on leading indicators of failure (confidence, calibration, drift) that change before accuracy drops.
+
+## Why this exists
+
+Most ML models fail *after* deployment, not during validation.
+This repo documents small, controlled experiments where standard metrics
+remain stable while reliability degrades silently.
+
+Each experiment isolates one failure illusion.
