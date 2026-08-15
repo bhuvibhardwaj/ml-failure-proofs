@@ -1,0 +1,5 @@
+torch>=2.0
+torchvision>=0.15
+captum>=0.6
+numpy>=1.23
+scipy>=1.9

@@ -4,3 +4,12 @@ __pycache__/
 *.pyc
 .env
 venv/
+
+# cascade package
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+data/
+*.pth
+.pytest_cache/
